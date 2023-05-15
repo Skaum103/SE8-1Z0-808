@@ -10,7 +10,7 @@ public class Q36 {
         sb.insert(1,x);
         System.out.println(sb.toString());
 
-        // == means "is the same object"
+        // == means "is the same object" ---- checks if two objects have the same address
         // String.equals() means is the same string
         String str2 = str1;
         System.out.println(str2 == str1);
